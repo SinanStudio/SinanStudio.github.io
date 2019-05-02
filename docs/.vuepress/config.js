@@ -58,7 +58,7 @@ module.exports = {
         "searchMaxSuggestions": 10,
         "docsRepo": "SinanStudio/SinanStudio.github.io",
         "docsDir": "docs",
-        "docsBranch": "master",
+        "docsBranch": "gh-pages",
         "editLinks": true,
         "editLinkText": "在 GitHub 上编辑此页"
     }
