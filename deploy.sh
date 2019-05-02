@@ -4,9 +4,9 @@
 set -e
 
 # 拉取代码进行编辑
-git pull
+git pull origin master
 
 # 提交代码到 github 触发 Travis Ci 部署到静态站点
 git add -A
 yarn commit
-git push
+git push origin master
