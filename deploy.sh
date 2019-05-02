@@ -3,8 +3,11 @@
 # 遇到错误退出
 set -e
 
+# dos2unix deploy.sh
+
 git config --local user.name "JianNei"
 git config --local user.email "longjian.huang@aliyun.com"
+git config --global credential.helper store
 
 # 拉取代码进行编辑
 git pull origin gh-pages
