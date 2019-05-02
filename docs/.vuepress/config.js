@@ -1,5 +1,4 @@
 module.exports = {
-    "base":"/sinan/",
     "title": "司南社区",
     "description": "让你的每一分努力，都能产生价值。",
     "head":[
@@ -41,7 +40,7 @@ module.exports = {
             },
             {
                 "text": "Github",
-                "link": "https://github.com/SinanStudio/sinan"
+                "link": "https://github.com/SinanStudio/SinanStudio.github.io"
             },
         ],
         "sidebar": {
@@ -57,7 +56,7 @@ module.exports = {
         "lastUpdated": "最后更新于",
         "search": true,
         "searchMaxSuggestions": 10,
-        "docsRepo": "s1nancommunity/sinan",
+        "docsRepo": "SinanStudio/SinanStudio.github.io",
         "docsDir": "docs",
         "docsBranch": "master",
         "editLinks": true,
